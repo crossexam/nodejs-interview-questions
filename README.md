@@ -24,3 +24,7 @@ It will be in one of 3 possible states:
 - **Fulfilled**: onFulfilled() will be called (e.g., resolve() was called)
 - **Rejected**: onRejected() will be called (e.g., reject() was called)
 - **Pending**: not yet fulfilled or rejected
+
+### 3. What is async function [(credit to MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+
+An async function is a function declared with the async keyword, and the await keyword is permitted within them. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
